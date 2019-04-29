@@ -34,8 +34,6 @@ props:
 
 ##### Game
 
-##### Phase
-
 ##### Card
 
 ##### Deck
