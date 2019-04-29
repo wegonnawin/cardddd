@@ -19,8 +19,9 @@ props:
 {
   className: string;
   winningCondition: gameState => bool;
-  rules: Array<gameState => bool>;
+  rules: Array<(action, gameState) => any>;
   players: Array<Player>;
+  middleware: Array<any => void>
 }
 ```
 
