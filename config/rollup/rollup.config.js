@@ -14,7 +14,9 @@ const toConfig = output => ({
   output: { indent: false, ...output },
   plugins: [
     nodeResolve(),
-    babel(),
+    babel({
+      configFile: './config/babel/.babelrc'
+    }),
   ],
   external: Object.keys(dependencies || {}),
 });
