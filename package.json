@@ -16,9 +16,7 @@
   "dependencies": {
     "ramda": "^0.26.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-game-kit": "^1.0.6",
-    "styled-components": "^4.2.0"
+    "react-game-kit": "^1.0.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

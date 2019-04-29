@@ -13,7 +13,10 @@ const toConfig = output => ({
   input,
   output: { indent: false, ...output },
   plugins: [
-    nodeResolve(),
+    nodeResolve({
+      extensions: ['.js', '.jsx'],
+      dedupe: ['react'],
+    }),
     babel({
       configFile: './config/babel/.babelrc'
     }),
