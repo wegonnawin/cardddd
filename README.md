@@ -10,9 +10,9 @@ The framework for 2D card game built over react and react-game-kit
 
 ## API
 
-#### Presentational Components
+### Presentational Components
 
-##### Game
+#### Game
 
 props:
 ```ts
@@ -24,26 +24,26 @@ props:
 }
 ```
 
-##### Field
+#### Field
 
-##### Card
+#### Card
 
-##### Deck
+#### Deck
 
-#### Container
+### Container
 
-##### Game
+#### Game
 
-##### Card
+#### Card
 
-##### Deck
+#### Deck
 
-##### Field
+#### Field
 
-#### Models
+### Models
 
-##### Player
+#### Player
 
-##### Card
+#### Card
 
-##### Deck
+#### Deck
